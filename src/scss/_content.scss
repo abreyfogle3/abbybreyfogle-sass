@@ -1,0 +1,47 @@
+.content {
+    width: 85%;
+    min-height: 750px;
+    min-width: 600px;
+    background-color: $primary-color;
+
+    p, ul {
+      // edited font
+      font-size: 2rem;
+      line-height: 2.75rem;
+     }
+
+    ul {
+      margin-left: 20px;
+    }
+
+     a:link {
+      text-decoration: none;
+      color: $secondary-color;
+    }
+  
+      a:visited {
+      text-decoration: none;
+      color: $secondary-color;
+    }
+  
+      a:hover {
+      text-decoration: underline;
+      color: $secondary-color;
+    }
+
+   > * {
+    padding-left: 30px;
+   }
+  
+    p {
+      width: 55%;
+      min-width: 550px;
+    }
+  
+    img, video {
+      height: 350px;
+      width: 550px;
+      margin-bottom: 30px;
+  }
+    
+}
